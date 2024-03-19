@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[1.8.11, )"
             },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.11, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -61,6 +65,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
