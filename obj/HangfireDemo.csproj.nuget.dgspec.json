@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[1.8.11, )"
             },
+            "Hangfire.MemoryStorage": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
             "Hangfire.SqlServer": {
               "target": "Package",
               "version": "[1.8.11, )"
