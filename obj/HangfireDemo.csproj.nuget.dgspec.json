@@ -50,17 +50,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.11, )"
+            },
             "Hangfire.AspNetCore": {
               "target": "Package",
               "version": "[1.8.11, )"
             },
+            "Hangfire.Console": {
+              "target": "Package",
+              "version": "[1.4.3, )"
+            },
             "Hangfire.MemoryStorage": {
               "target": "Package",
               "version": "[1.8.0, )"
-            },
-            "Hangfire.SqlServer": {
-              "target": "Package",
-              "version": "[1.8.11, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

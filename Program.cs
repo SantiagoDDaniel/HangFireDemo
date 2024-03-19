@@ -1,15 +1,14 @@
 using Hangfire;
+using Hangfire.MemoryStorage;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddHangfire(config => 
+builder.Services.AddHangfire(config =>
 {
-    var connectionString = builder.Configuration.GetConnectionString("DbConnection");
-    config.UseSqlServerStorage(connectionString);
+    config.UseMemoryStorage();
 });
-
 builder.Services.AddHangfireServer();
 
 var app = builder.Build();
@@ -21,5 +20,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
+app.UseHangfireDashboard();
 app.MapControllers();
 app.Run();
