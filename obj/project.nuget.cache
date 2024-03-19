@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "k2UbiNcR3yExP3KidQF2s7lC/bg23ZWzoxzmen9XQVIdiXBhPaer31lZwqqI9ouMMoFNVBELy/+fbjWyJkC6Dw==",
+  "dgSpecHash": "RxJLftok2D1zgeoa7e+D25w1FDqYSXG/onXBzZ7Df3CSaUC1rxgnm/xJZQIkiSeRb0XGm/X+ozDX9sVtBaI45Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\danie\\Downloads\\Meta\\HangfireDemo\\HangfireDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danie\\.nuget\\packages\\hangfire.aspnetcore\\1.8.11\\hangfire.aspnetcore.1.8.11.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\hangfire.core\\1.8.11\\hangfire.core.1.8.11.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\hangfire.memorystorage\\1.8.0\\hangfire.memorystorage.1.8.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\hangfire.netcore\\1.8.11\\hangfire.netcore.1.8.11.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\hangfire.sqlserver\\1.8.11\\hangfire.sqlserver.1.8.11.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.2\\microsoft.aspnetcore.openapi.8.0.2.nupkg.sha512",
